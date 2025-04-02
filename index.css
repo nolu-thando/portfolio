@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #202632;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #977294;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    color: #977294;
+}
+.link li{
+    display: inline;
+    padding: 1rem 1.5rem;
+    transition: var(--transiton);
+}
+.link li:hover{
+    background-color: var(--blue100);
+    color: var(--white);
+    letter-spacing: 0.1rem;
+
+}

@@ -43,14 +43,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4px 16px;
 }
 image{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 20%;
+    max-height: 10%;
+    padding: 15px;
+    border-image: 20 round;
 }
 .text{
     font-size: 20px;
     padding-left: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: #977294;
+    text-wrap: wrap;
 }

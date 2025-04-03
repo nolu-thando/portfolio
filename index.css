@@ -45,11 +45,12 @@ nav{
     justify-content: center;
     padding: 4px 16px;
 }
-image{
-    max-width: 20%;
-    max-height: 10%;
+.image{
+    max-width: 30%;
+    max-height: 30%;
     padding: 15px;
-    border-image: 20 round;
+    border-radius: 20 round;
+   
 }
 .text{
     font-size: 20px;
@@ -57,4 +58,22 @@ image{
     font-family: 'Times New Roman', Times, serif;
     color: #977294;
     text-wrap: wrap;
+    animation-duration: 5s;
+}
+.text :before{
+    content: '';
+    position: absolute;
+    right: 130%;
+    width: 130%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%);
+    animation: text 5s liner backwards;
+}
+@keyframes text{
+    from{
+        right:130%;
+    }
+    to{
+        right: -20%;
+    }
 }

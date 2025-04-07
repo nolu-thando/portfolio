@@ -68,7 +68,7 @@ nav{
     height: 100%;
     color:white;
             overflow: hidden;
-            animation: animate 6s infinite;
+            animation: animate 6s infinite; 
 }
 
 @keyframes animate {

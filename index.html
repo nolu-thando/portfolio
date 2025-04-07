@@ -1,64 +1,92 @@
 <!DOCTYPE html>
-<html lang-en>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Noluthando's Portfolio</title>
-<!--Link for stylesheet-->  
-<link rel="stylesheet" href="index.css"  >
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noluthando Mphande's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
 </head>
-
 <body>
-<header>
-<nav>
-    <ul class="link">
-        <li class="active"> Home</li>
-        <li onclick="myFunction()"> About Me</li>
-        <li>Contact Me</li>
-    </ul>
-</nav>
-<br>
-<br>
-<span class="h1">Noluthando Mphande's Portfolio</span>
-</header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="container">
-    <div class="image">
-        <img src="media/20240528_170508.jpg" alt="image" style="width:100%">
+    <div class="background-gradient"></div>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">My Portfolio.</a>
         </div>
-        <div class="text">
-            <blockquote>
-            <p>
-                Hi! My name is Noluthando Mphande. I am a passionate junior software developer with a keen eye for problem-solving 
-                and innovation. With a foundation in coding and software development, I am dedicate to build efficient and user-friendly 
-                applications. I am always eager to learn and grow in my field of study, staying up to date with the latest technologies 
-                and best practices in the industry. Whether working on the frontend or backend development, I strive to deliver high-quality 
-                solutions that meet the user's needs and business' objectives.
-            </p>
-        </blockquote>
-    </div>
-</div>
-<script src="index.js"></script>
-<!--About me section-->
-<h1 class="aboutme"> About me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contactme.html">Get In Touch</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
 
-<!--Footer-->
-<footer class="footer text-center">
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Hey! Welcome to my portfolio</h2>
+                <h1>I am Noluthando  (Thando) Mphande</h1>
+                <h3>And I'm a <span class="typing"> Junior Frontend Developer</span></h3>
+                <p>Ambitious and detail-oriented Junior Frontend Web Developer 
+                    with one year of experience in designing and developing 
+                    responsive, user-friendly, and visually appealing web 
+                    applications. </p>
+                
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/noluthando-mphande" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/0646853553" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/nolu-thando" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="about.html" class="glow-button">About Noluthando</a>
+                    <a href="media/NOLUTHANDO_MPHANDE_CV[1].pdf" download class="download-resume-button">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+   
+            </div>
+            
+            <div class="hero-image">
+                <div class="profile-container">
+                    <img src="media/20240528_170508.jpg" alt="Your Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </section>
+ <!-- Resume  Section -->
+ <section id="resume" class="resume-section">
     <div class="container">
-        <div class="row">
-            <a class="btn-outline-light" href="">
-                <i class="fab fa-fw fa-linkedin-in">
+        <h2>My Resume</h2>
+        <div class="resume-preview">
+            <div class="resume-thumbnail">
+                <img src="media/myresume.png" alt="Resume">
+            </div>
+            <div class="resume-info">
+                <h3>Noluthando (Thando) Mphande - Frontend Developer</h3>
+                <p>Take a look at my professional background, skills, and experiences on my RESUME.</p>
+                <ul class="resume-highlights">
+                    <li><i class="fas fa-check-circle"></i> Professional Experience</li>
+                    <li><i class="fas fa-check-circle"></i> Technical Skills</li>
+                    <li><i class="fas fa-check-circle"></i> Education</li>
+                </ul>
+                <a href="media/NOLUTHANDO_MPHANDE_CV[1].pdf" download class="download-resume-button">Download Resume</a>
+                </a>
 
-                </i>
-            </a>
-        </div>
-    </div>
-</footer>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Noluthando Mphande. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

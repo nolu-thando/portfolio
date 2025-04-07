@@ -388,13 +388,6 @@ nav ul li a.active {
     box-shadow: 0 0 15px var(--glow-color);
     transition: var(--transition);
 }
-
-.glow-button:hover {
-    background: var(--dark-bg);
-    color: var(--secondary-color);
-    box-shadow: 0 0 25px var(--glow-color);
-}
-
 /*Avatar*/
 .hero-image {
     position: relative;
@@ -450,7 +443,7 @@ footer {
     padding: 50px 100px;
 }
 
-/* ===== ABOUT PAGE ===== */
+/* about page */
 .about-image {
     flex: 1;
     min-width: 300px;

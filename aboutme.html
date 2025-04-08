@@ -1,21 +1,123 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Noluthando</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Noluthando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="stylesheet/index.css">
     <link rel="stylesheet" href="stylesheet/style.css">
-    </head>
-    <body>
-<div class="background-gradient"></div>
-<header>
+</head>
+<!--navbar content-->
+<body>
+    <div class="background-gradient"></div>
     
-</header>
+    <header>
+        <div class="logo">
+            <a href="index.html"> My Portfolio.</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html" class="active">About Me</a></li>
+                <li><a href="contactme.html">Get In Touch</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+<!--Main content-->
+    <main>
+        <div class="page-title">
+            <h1>Who is Noluthando?</h1>
+            <p>I am a junior frontend developer with passion for building visually stunning and
+        user-friendly web and mobile applications. I'm excited to share my journey and experiences with you.
+ </p>
+        </div>
+
+        <section class="section">
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <img src="media/20240528_170508.jpg" alt="About Me">
+                </div>
+                <div class="about-text fade-in">
+                    <h2>A Bit About My Background</h2>
+                <blockquote>
+                    <p>
+                        As a junior frontend developer, I have had the opportunity to work on various projects. 
+                        My journey in frontend development began with curiosity for how things work, which led me to
+                         explore the world of coding. I am driven by desire too create software solutions that make
+                          a real difference in people's lives. I bellieve that technology has the power to solve some of
+                         the world's most pressing problems, and I want to be a part of those solutions.
+                    </p>
+                </blockquote>
 
 
+                    <div class="tabs">
+                        <div class="tab-links">
+                            <div class="tab-link active" data-tab="skills">Skills</div>
+                            <div class="tab-link active" data-tab="education">Education</div>
+                        </div>
+                        
+                        <div class="tab-contents">
+                            <div class="tab-content active" id="skills">
+                                <div class="skills-list">
+                                    <div>
+                                        <span>HTML & CSS</span>
+                                        <div class="skills-bar">
+                                            <div class="skills-progress" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>JavaScript</span>
+                                        <div class="skills-bar">
+                                            <div class="skills-progress" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>React.js</span>
+                                        <div class="skills-bar">
+                                            <div class="skills-progress" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>Responsive Design</span>
+                                        <div class="skills-bar">
+                                            <div class="skills-progress" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    </div>
 
+                                    
+                            <div class="tab-content active" id="education">
+                                <div class="education-list">
+                                    <div class="education-item">
+                                        <h3>Software Development</h3>
+                                        <p>Power Learn Project | February 2025 - Presnt</p>
+                                        <p>Web development, Python programming, SQL and database design & management.</p>
+                                    </div>
+                                   <br>
+                                    <div class="education-item">
+                                        <h3>Certifications</h3>
+                                        <p>• CompTia A+</p>
+                                        <p>• Systems Support Level 5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    </body>
+    <footer>
+        <p>&copy; 2025 Noluthando Mphande. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+</body>
 </html>

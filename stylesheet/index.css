@@ -552,13 +552,8 @@ footer {
     position: relative;
 }
 
-.skills-progress {
-    height: 100%;
-    background: white;
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
+.checked {
+   color: #FFC2CE;
 }
 
 .experience-item, .education-item {

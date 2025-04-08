@@ -1,12 +1,12 @@
 /* MY FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* ===== VARIABLES ===== */
+/* html files css */
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #5F1A37;
     --secondary-color: #FFC2CE;
-    --dark-bg: #081b29;
-    --darker-bg: #081b29;
+    --dark-bg: #04030F;
+    --darker-bg: #04030F;
     --transition: all 0.3s ease;
     --glow-color: #FFC2CE;
 }
@@ -417,7 +417,7 @@ nav ul li a.active {
    
 }
 
-/* ===== FOOTER ===== */
+/* footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -425,7 +425,7 @@ footer {
     backdrop-filter: blur(10px);
 }
 
-/* ===== PAGES COMMON ===== */
+/* other pages */
 .page-title {
     padding-top: 150px;
     text-align: center;

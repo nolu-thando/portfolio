@@ -399,6 +399,8 @@ nav ul li a.active {
     width: 450px;
     height: 450px;
     margin-left: 30px;
+    object-fit: none;
+    
 }
 
 .profile-container {

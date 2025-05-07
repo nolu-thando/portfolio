@@ -3,12 +3,12 @@
 
 /* html files css */
 :root {
-    --primary-color: #5F1A37;
-    --secondary-color: #FFC2CE;
+    --primary-color:  #FFC2CE;
+    --secondary-color: #D9594C;
     --dark-bg: #04030F;
     --darker-bg: #04030F;
     --transition: all 0.3s ease;
-    --glow-color: #FFC2CE;
+    --glow-color: #D9594C;
 }
 
 * {
